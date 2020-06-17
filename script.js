@@ -12,11 +12,11 @@ function input() {
 
         //tambah tombol dan content
         let create = document.createElement("h3");
-        create.setAttribute("id", `${element}`);
+        create.setAttribute("id", `index-${index}`);
         let createB = document.createElement("button");
-        createB.setAttribute("id", `edit-${element}`);
+        createB.setAttribute("id", `edit-${index}`);
         let createC = document.createElement("button");
-        createC.setAttribute("id", `delete-${element}`);
+        createC.setAttribute("id", `delete-${index}`);
         let createText = document.createTextNode(element);
 
         //gabung semua
@@ -28,7 +28,7 @@ function input() {
         createB.innerHTML = "Edit";
         createC.innerHTML = "Delete";
         create.appendChild(createText);
-        console.log(`${element}`);
+        //console.log(`${element}`);
         //edit
         createB.addEventListener("click", () => {
             editList(index);
