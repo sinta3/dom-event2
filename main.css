@@ -1,0 +1,48 @@
+* {
+    font-family: "Oswald", sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    border-radius: 2%;
+}
+
+.input {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 500px;
+}
+
+#container {
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 500px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.content button {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.content h3 {
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
